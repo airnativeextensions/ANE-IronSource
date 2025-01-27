@@ -66,7 +66,7 @@
     <android>
         <manifestAdditions><![CDATA[
             <manifest android:installLocation="auto" >
-                <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="34" />
+                <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="34" />
 
                 <uses-permission android:name="android.permission.INTERNET"/>
                 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -117,7 +117,6 @@
         <extensionID>com.distriqt.IronSource</extensionID>
 
         <extensionID>com.distriqt.playservices.Base</extensionID>
-        <extensionID>com.distriqt.playservices.Ads</extensionID>
         <extensionID>com.distriqt.playservices.AdsIdentifier</extensionID>
 
         <extensionID>androidx.core</extensionID>

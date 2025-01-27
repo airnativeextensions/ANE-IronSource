@@ -74,11 +74,11 @@
 		</data>
 		<key>Headers/FBAudienceNetwork-Swift.h</key>
 		<data>
-		Zxn8rfAlUb0S3CRXwSdjiykcIJo=
+		ZywVkpBrMmwttO5xx1wgJMaDJ0A=
 		</data>
 		<key>Headers/FBAudienceNetwork.h</key>
 		<data>
-		MPcTmXsBN/wVLIyUKGHzZjVWq7M=
+		feNsK/1/evWxTUwjgklDkQ6iiLo=
 		</data>
 		<key>Headers/FBAudienceNetworkAds.h</key>
 		<data>
@@ -174,19 +174,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8FXuQQxANsWSgKuljTjYGqcMC1s=
+		B+tmjmmbTj/5GQ33cX63rQBqDJk=
 		</data>
 		<key>Modules/FBAudienceNetwork.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		XTPeYb4Hpny9WanK/i68U9d9qag=
+		vjwp1+4oC1aYJtnuFtnK4aLo8EM=
 		</data>
 		<key>Modules/FBAudienceNetwork.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Pl1qnJlT8GrQqkF44AOewTeB+PQ=
+		R7gvvSYAAGK8SwZEFESQ8XePxuc=
 		</data>
 		<key>Modules/FBAudienceNetwork.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		XTPeYb4Hpny9WanK/i68U9d9qag=
+		vjwp1+4oC1aYJtnuFtnK4aLo8EM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -326,14 +326,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nTEmugX15PHDAdDCDNni1aCFTzduvwSWeH7uMCdKoso=
+			PKbBXBIHepYVIvCGwOr7P8U+mYlOSV272nmftIuSq+w=
 			</data>
 		</dict>
 		<key>Headers/FBAudienceNetwork.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QRpnvXGDN7TqrlRMg0Qw5/vdEZrBoUmQn4TMs0K+BUc=
+			CNojlBwBsvdT4WP0UdXPAmG2FbuwqBVFdFWQyMGpjOw=
 			</data>
 		</dict>
 		<key>Headers/FBAudienceNetworkAds.h</key>
@@ -501,21 +501,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PJzeI7gqXp95T4Q30jxlWWSgyl0amqiCfxKjHETUuBw=
+			XHIf5Bd3Ofsq5Y5PtPd74gR+q0AsXKRSkrk348wCDm0=
 			</data>
 		</dict>
 		<key>Modules/FBAudienceNetwork.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SlnS39YgpuMpmcVY9UgQjc2l8G9gsT9UPTN91zzdd/Y=
+			sRtbgNWaX0cfVX/SKBGB/T3U1cRlifqosOL93+S87A0=
 			</data>
 		</dict>
 		<key>Modules/FBAudienceNetwork.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PJzeI7gqXp95T4Q30jxlWWSgyl0amqiCfxKjHETUuBw=
+			XHIf5Bd3Ofsq5Y5PtPd74gR+q0AsXKRSkrk348wCDm0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

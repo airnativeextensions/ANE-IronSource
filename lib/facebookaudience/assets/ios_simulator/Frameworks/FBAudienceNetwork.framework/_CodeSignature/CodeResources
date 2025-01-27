@@ -74,11 +74,11 @@
 		</data>
 		<key>Headers/FBAudienceNetwork-Swift.h</key>
 		<data>
-		Zxn8rfAlUb0S3CRXwSdjiykcIJo=
+		ZywVkpBrMmwttO5xx1wgJMaDJ0A=
 		</data>
 		<key>Headers/FBAudienceNetwork.h</key>
 		<data>
-		MPcTmXsBN/wVLIyUKGHzZjVWq7M=
+		feNsK/1/evWxTUwjgklDkQ6iiLo=
 		</data>
 		<key>Headers/FBAudienceNetworkAds.h</key>
 		<data>
@@ -174,31 +174,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lGAT4EjVavkoKpbf7znCJCNVlac=
+		eADg33DuaP8gCxNnN287Pntvw8s=
 		</data>
 		<key>Modules/FBAudienceNetwork.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		1Gh586ICjHNKpB6kBNMm62BYKpA=
+		+M+G3cKtzpvWVqnhMfxemsCJsnY=
 		</data>
 		<key>Modules/FBAudienceNetwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Kgq4MOauNReCKXKkQnwe2pX7gHM=
+		2JmVkhseuu1QgHidQiS+IjqBMm0=
 		</data>
 		<key>Modules/FBAudienceNetwork.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1Gh586ICjHNKpB6kBNMm62BYKpA=
+		+M+G3cKtzpvWVqnhMfxemsCJsnY=
 		</data>
 		<key>Modules/FBAudienceNetwork.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6mdK5mhcZ2eWwNNeydDd3t6FIi0=
+		Jvj5fQF2stcVpJUAHqkHRNQPd2o=
 		</data>
 		<key>Modules/FBAudienceNetwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		rtb436ne1tY9Ew0OHYxquRMrWJs=
+		eEcDkUaMminOTN1WvIPY5BNz2Fs=
 		</data>
 		<key>Modules/FBAudienceNetwork.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6mdK5mhcZ2eWwNNeydDd3t6FIi0=
+		Jvj5fQF2stcVpJUAHqkHRNQPd2o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -338,14 +338,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nTEmugX15PHDAdDCDNni1aCFTzduvwSWeH7uMCdKoso=
+			PKbBXBIHepYVIvCGwOr7P8U+mYlOSV272nmftIuSq+w=
 			</data>
 		</dict>
 		<key>Headers/FBAudienceNetwork.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QRpnvXGDN7TqrlRMg0Qw5/vdEZrBoUmQn4TMs0K+BUc=
+			CNojlBwBsvdT4WP0UdXPAmG2FbuwqBVFdFWQyMGpjOw=
 			</data>
 		</dict>
 		<key>Headers/FBAudienceNetworkAds.h</key>
@@ -513,42 +513,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aBgF4ollw7ZtBIzJ9a4iigehk1OX5KeuFlADX6EEo84=
+			zYBwHA1sKujEmw49UpYgWRkrJxmC2K1O1jfjhZZ6E6c=
 			</data>
 		</dict>
 		<key>Modules/FBAudienceNetwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/JrDRAyMYANgBeMLUfQKfuliE8ZvvTWsmBWNBeDLQ+k=
+			E1xZtCr2WWZy/Ng54c539VY4x1YT+/uRN+JVHZeYCH0=
 			</data>
 		</dict>
 		<key>Modules/FBAudienceNetwork.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aBgF4ollw7ZtBIzJ9a4iigehk1OX5KeuFlADX6EEo84=
+			zYBwHA1sKujEmw49UpYgWRkrJxmC2K1O1jfjhZZ6E6c=
 			</data>
 		</dict>
 		<key>Modules/FBAudienceNetwork.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7JT9/5qCYOVeyLW18ypR0Q1Cq+FUfgmcXFWSeVkVLqk=
+			toTZ5MEU2e8uhRchx1yCRVK9DoAuSvzteTB222MEXn8=
 			</data>
 		</dict>
 		<key>Modules/FBAudienceNetwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CaSlQdpKfhZXSF6PALNf0l8+OeknB7Veq4H0xz9StWw=
+			61jvUIo9bwmPrMFDPot5q23BDZa+TIAmuCTlfGAIUy0=
 			</data>
 		</dict>
 		<key>Modules/FBAudienceNetwork.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7JT9/5qCYOVeyLW18ypR0Q1Cq+FUfgmcXFWSeVkVLqk=
+			toTZ5MEU2e8uhRchx1yCRVK9DoAuSvzteTB222MEXn8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

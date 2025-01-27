@@ -10,6 +10,7 @@ import AudioToolbox
 import CoreTelephony
 import Dispatch
 import Foundation
+import Network
 import StoreKit
 import Swift
 import SwiftUI
@@ -22,7 +23,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os
 import zlib
-@available(*, deprecated, message: "VungleBannerDelegate will be depricated and Replaced by VungleBannerViewDelegate class.")
+@available(*, deprecated, message: "VungleBannerDelegate will be deprecated and replaced by VungleBannerViewDelegate protocol.")
 @objc public protocol VungleBannerDelegate : ObjectiveC.NSObjectProtocol {
   @objc optional func bannerAdDidLoad(_ banner: VungleAdsSDK.VungleBanner)
   @objc optional func bannerAdDidFailToLoad(_ banner: VungleAdsSDK.VungleBanner, withError: Foundation.NSError)
@@ -47,7 +48,7 @@ import zlib
     get
   }
 }
-@_hasMissingDesignatedInitializers @available(*, deprecated, message: "VungleBanner class will be depricated and Replaced by VungleBannerView class.")
+@_hasMissingDesignatedInitializers @available(*, deprecated, message: "VungleBanner class will be deprecated and replaced by VungleBannerView class.")
 @objc public class VungleBanner : VungleAdsSDK.BasePublicAd {
   @objc weak public var delegate: (any VungleAdsSDK.VungleBannerDelegate)?
   @objc public init(placementId: Swift.String, size: VungleAdsSDK.BannerSize)
@@ -192,27 +193,11 @@ import zlib
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers final public class FirstPartyData : ObjectiveC.NSObject, Swift.Codable {
   @objc final public func setAge(_ age: Swift.Int)
-  @objc final public func setEducationLevel(_ educationLevel: VungleAdsSDK.EducationLevel)
-  @objc final public func setEmail(_ email: Swift.String)
-  @objc final public func setEmploymentStatus(_ employmentStatus: VungleAdsSDK.EmploymentStatus)
-  @objc final public func setGender(_ gender: VungleAdsSDK.Gender)
-  @objc final public func setIncomeUsd(_ incomeUsd: Swift.Int)
   @objc final public func setLengthOfResidenceYears(_ lengthOfResidenceYears: Foundation.Decimal)
-  @objc final public func setLocaleClassification(_ localeClassification: VungleAdsSDK.LocaleClassification)
-  @objc final public func setMaritalStatus(_ maritalStatus: VungleAdsSDK.MaritalStatus)
   @objc final public func setMedianHomeValueUsd(_ medianHomeValueUsd: Swift.Int)
   @objc final public func setMonthlyHousingPaymentUsd(_ monthlyHousingPaymentUsd: Swift.Int)
-  @objc final public func setOwnership(_ ownership: VungleAdsSDK.Ownership)
-  @objc final public func setPhoneNumber(_ phoneNumber: Swift.String)
-  @objc final public func setPropertyType(_ propertyType: VungleAdsSDK.PropertyType)
-  @objc final public func setYob(_ yob: Swift.Int)
   @objc final public func setCountry(_ country: Swift.String?)
   @objc final public func setDma(_ dma: Swift.Int)
-  @objc final public func setIsTraveling(_ isTraveling: Swift.Bool)
-  @objc final public func setLocationSource(_ locationSource: VungleAdsSDK.LocationSource)
-  @objc final public func setLatitude(_ latitude: Swift.Double)
-  @objc final public func setLongitude(_ longitude: Swift.Double)
-  @objc final public func setPostalCode(_ postalCode: Swift.String?)
   @objc final public func setRegionState(_ regionState: Swift.String?)
   @objc final public func setEarningsByPlacement(_ earningsByPlacement: Foundation.Decimal)
   @objc final public func setIsUserAPurchaser(_ isUserAPurchaser: Swift.Bool)
@@ -269,6 +254,7 @@ import zlib
 @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class VungleBannerView : UIKit.UIView {
   @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any VungleAdsSDK.VungleBannerViewDelegate)?
   @objc @_Concurrency.MainActor(unsafe) public init(placementId: Swift.String, vungleAdSize: VungleAdsSDK.VungleAdSize)
+  @objc deinit
   @objc @_Concurrency.MainActor(unsafe) public func load(_ bidPayload: Swift.String? = nil)
   @objc @_Concurrency.MainActor(unsafe) public func set(extras: VungleAdsSDK.VungleAdsExtras)
   @objc @_Concurrency.MainActor(unsafe) public var appId: Swift.String {
@@ -285,109 +271,110 @@ import zlib
   }
   @objc @_Concurrency.MainActor(unsafe) public func getBannerSize() -> CoreFoundation.CGSize
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func didMoveToSuperview()
-  @objc deinit
 }
 @objc public enum VungleError : Swift.Int {
-  case unknownError
-  case invalidAppID
-  case currentlyInitializing
-  case alreadyInitialized
-  case sdkNotInitialized
-  case userAgentError
-  case apiRequestError
-  case apiResponseDataError
-  case apiResponseDecodeError
-  case apiFailedStatusCode
-  case invalidTemplateURL
-  case invalidRequestBuilderError
-  case templateUnzipError
-  case invalidCtaURL
-  case invalidAssetURL
-  case assetRequestError
-  case assetResponseDataError
-  case assetWriteError
-  case invalidIndexURL
-  case gzipEncodeError
-  case assetFailedStatusCode
-  case protobufSerializationError
-  case jsonEncodeError
-  case tpatError
-  case invalidAdsEndpoint
-  case invalidRiEndpoint
-  case invalidLogErrorEndpoint
-  case invalidMetricsEndpoint
-  case assetFailedInsufficientSpace
-  case assetFailedMaxSpaceExceeded
-  case invalidTpatKey
-  case emptyTpatError
-  case mraidDownloadJsError
-  case mraidJsWriteFailed
-  case omsdkDownloadJsError
-  case omsdkJsWriteFailed
-  case storeRegionCodeError
-  case invalidConfigResponse
-  case privacyURLError
-  case tpatRetryFailed
-  case configRefreshFailed
-  case invalidEventIDError
-  case invalidPlacementID
-  case adConsumed
-  case adIsLoading
-  case adAlreadyLoaded
-  case adIsPlaying
-  case adAlreadyFailed
-  case placementAdTypeMismatch
-  case invalidBidPayload
-  case invalidJsonBidPayload
-  case adNotLoaded
-  case placementSleep
-  case invalidAdunitBidPayload
-  case invalidGzipBidPayload
-  case adResponseEmpty
-  case adResponseInvalidTemplateType
-  case adResponseTimedOut
-  case mraidJsDoesNotExist
-  case mraidJsCopyFailed
-  case adResponseRetryAfter
-  case adLoadFailRetryAfter
-  case invalidWaterfallPlacementID
-  case staleCachedResponse
-  case adNoFill
-  case adLoadTooFrequently
-  case adServerError
-  case adPublisherMismatch
-  case adInternalIntegrationError
-  case mraidError
-  case invalidIfaStatus
-  case adExpired
-  case mraidBridgeError
-  case adExpiredOnPlay
-  case adWinNotificationError
-  case assetFailedToDelete
-  case adHtmlFailedToLoad
-  case mraidJsCallEmpty
-  case deeplinkOpenFailed
-  case evaluateJavascriptFailed
-  case linkCommandOpenFailed
-  case jsonParamsEncodeError
-  case generateJsonDataError
-  case adClosedTemplateError
-  case adClosedMissingHeartbeat
-  case silentModeMonitorError
-  case concurrentPlaybackUnsupported
-  case bannerViewInvalidSize
-  case nativeAssetError
-  case webViewWebContentProcessDidTerminate
-  case webViewFailedNavigation
-  case storeKitLoadError
-  case omsdkCopyError
-  case storeOverlayLoadError
-  case reachabilityInitializationFailed
-  case unknownRadioAccessTechnology
-  case storeKitPresentationError
-  case storeOverlayPresentationError
-  case invalidPlayParameter
-  case outOfMemory
+  case unknownError = 0
+  case invalidAppID = 2
+  case currentlyInitializing = 3
+  case alreadyInitialized = 4
+  case sdkNotInitialized = 6
+  case userAgentError = 7
+  case apiRequestError = 101
+  case apiResponseDataError = 102
+  case apiResponseDecodeError = 103
+  case apiFailedStatusCode = 104
+  case invalidTemplateURL = 105
+  case invalidRequestBuilderError = 106
+  case templateUnzipError = 109
+  case invalidCtaURL = 110
+  case invalidAssetURL = 111
+  case assetRequestError = 112
+  case assetResponseDataError = 113
+  case assetWriteError = 114
+  case invalidIndexURL = 115
+  case gzipEncodeError = 116
+  case assetFailedStatusCode = 117
+  case protobufSerializationError = 118
+  case jsonEncodeError = 119
+  case tpatError = 121
+  case invalidAdsEndpoint = 122
+  case invalidRiEndpoint = 123
+  case invalidLogErrorEndpoint = 124
+  case invalidMetricsEndpoint = 125
+  case assetFailedInsufficientSpace = 126
+  case assetFailedMaxSpaceExceeded = 127
+  case invalidTpatKey = 128
+  case emptyTpatError = 129
+  case mraidDownloadJsError = 130
+  case mraidJsWriteFailed = 131
+  case omsdkDownloadJsError = 132
+  case omsdkJsWriteFailed = 133
+  case storeRegionCodeError = 134
+  case invalidConfigResponse = 135
+  case privacyURLError = 136
+  case tpatRetryFailed = 137
+  case configRefreshFailed = 138
+  case invalidEventIDError = 200
+  case invalidPlacementID = 201
+  case adConsumed = 202
+  case adIsLoading = 203
+  case adAlreadyLoaded = 204
+  case adIsPlaying = 205
+  case adAlreadyFailed = 206
+  case placementAdTypeMismatch = 207
+  case invalidBidPayload = 208
+  case invalidJsonBidPayload = 209
+  case adNotLoaded = 210
+  case placementSleep = 212
+  case invalidAdunitBidPayload = 213
+  case invalidGzipBidPayload = 214
+  case adResponseEmpty = 215
+  case adResponseInvalidTemplateType = 216
+  case adResponseTimedOut = 217
+  case mraidJsDoesNotExist = 218
+  case mraidJsCopyFailed = 219
+  case adResponseRetryAfter = 220
+  case adLoadFailRetryAfter = 221
+  case invalidWaterfallPlacementID = 222
+  case staleCachedResponse = 223
+  case adNoFill = 10001
+  case adLoadTooFrequently = 10002
+  case adServerError = 20001
+  case adPublisherMismatch = 30001
+  case adInternalIntegrationError = 30002
+  case configNotFoundError = 30003
+  case mraidError = 301
+  case invalidIfaStatus = 302
+  case adExpired = 304
+  case mraidBridgeError = 305
+  case adExpiredOnPlay = 307
+  case adWinNotificationError = 308
+  case assetFailedToDelete = 309
+  case adHtmlFailedToLoad = 310
+  case mraidJsCallEmpty = 311
+  case deeplinkOpenFailed = 312
+  case evaluateJavascriptFailed = 313
+  case linkCommandOpenFailed = 314
+  case jsonParamsEncodeError = 315
+  case generateJsonDataError = 316
+  case adClosedTemplateError = 317
+  case adClosedMissingHeartbeat = 318
+  case silentModeMonitorError = 319
+  case webviewError = 320
+  case concurrentPlaybackUnsupported = 400
+  case bannerViewInvalidSize = 500
+  case nativeAssetError = 600
+  case webViewWebContentProcessDidTerminate = 2000
+  case webViewFailedNavigation = 2001
+  case storeKitLoadError = 2002
+  case omsdkCopyError = 2003
+  case storeOverlayLoadError = 2004
+  case reachabilityInitializationFailed = 2005
+  case unknownRadioAccessTechnology = 2006
+  case storeKitPresentationError = 2007
+  case storeOverlayPresentationError = 2008
+  case invalidPlayParameter = 2009
+  case outOfMemory = 3001
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -458,78 +445,6 @@ extension VungleAdsSDK.VungleAdSize {
   @objc dynamic public class func VungleAdSizeFromCGSize(_ size: CoreFoundation.CGSize) -> VungleAdsSDK.VungleAdSize
   @objc dynamic public class func VungleValidAdSizeFromCGSize(size: CoreFoundation.CGSize, placementId: Swift.String) -> VungleAdsSDK.VungleAdSize
 }
-@objc public enum Gender : Swift.Int, Swift.Decodable {
-  case other = 0, male, female
-  public init(from decoder: any Swift.Decoder) throws
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum EducationLevel : Swift.Int, Swift.Decodable {
-  case other = 0, noSchooling, someHighSchool, highSchoolGraduate, someCollege, bachelors, masters, professional, doctorate
-  public init(from decoder: any Swift.Decoder) throws
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum EmploymentStatus : Swift.Int, Swift.Decodable {
-  case other = 0, employed, unemployed, selfEmployed, retired, student, intern, temporary, freelancer, casual
-  public init(from decoder: any Swift.Decoder) throws
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum LocaleClassification : Swift.Int, Swift.Decodable {
-  case other = 0, urban, suburban, rural, town, cityCenter, residentialArea, outskirts, industrialArea, village
-  public init(from decoder: any Swift.Decoder) throws
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum MaritalStatus : Swift.Int, Swift.Decodable {
-  case single = 0, married, divorced, widowed, separated, partnered, engaged, cohabiting, annulled, commonLaw
-  public init(from decoder: any Swift.Decoder) throws
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum Ownership : Swift.Int, Swift.Decodable {
-  case other = 0, ownerOccupied, renterOccupied, leased, shared, freehold, coop, stateOwned, managed, vacationHome
-  public init(from decoder: any Swift.Decoder) throws
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum PropertyType : Swift.Int, Swift.Decodable {
-  case other = 0, singleFamilyHome, multiFamilyUnit, condo, townhouse, mobileHome, apartment, studio, farmhouse, ranch
-  public init(from decoder: any Swift.Decoder) throws
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum LocationSource : Swift.Int, Swift.Decodable {
-  case other = 0, gps, ipAddress, userInput, mobileNetwork, wifi, beacon, rfid, geofencing, sensor
-  public init(from decoder: any Swift.Decoder) throws
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
 @available(*, deprecated, message: "BannerSize will be depricated and will be replaced by VungleAdSize")
 extension VungleAdsSDK.BannerSize : Swift.Equatable {}
 @available(*, deprecated, message: "BannerSize will be depricated and will be replaced by VungleAdSize")
@@ -548,27 +463,3 @@ extension VungleAdsSDK.VungleError : Swift.RawRepresentable {}
 extension VungleAdsSDK.VungleAdSizeType : Swift.Equatable {}
 extension VungleAdsSDK.VungleAdSizeType : Swift.Hashable {}
 extension VungleAdsSDK.VungleAdSizeType : Swift.RawRepresentable {}
-extension VungleAdsSDK.Gender : Swift.Equatable {}
-extension VungleAdsSDK.Gender : Swift.Hashable {}
-extension VungleAdsSDK.Gender : Swift.RawRepresentable {}
-extension VungleAdsSDK.EducationLevel : Swift.Equatable {}
-extension VungleAdsSDK.EducationLevel : Swift.Hashable {}
-extension VungleAdsSDK.EducationLevel : Swift.RawRepresentable {}
-extension VungleAdsSDK.EmploymentStatus : Swift.Equatable {}
-extension VungleAdsSDK.EmploymentStatus : Swift.Hashable {}
-extension VungleAdsSDK.EmploymentStatus : Swift.RawRepresentable {}
-extension VungleAdsSDK.LocaleClassification : Swift.Equatable {}
-extension VungleAdsSDK.LocaleClassification : Swift.Hashable {}
-extension VungleAdsSDK.LocaleClassification : Swift.RawRepresentable {}
-extension VungleAdsSDK.MaritalStatus : Swift.Equatable {}
-extension VungleAdsSDK.MaritalStatus : Swift.Hashable {}
-extension VungleAdsSDK.MaritalStatus : Swift.RawRepresentable {}
-extension VungleAdsSDK.Ownership : Swift.Equatable {}
-extension VungleAdsSDK.Ownership : Swift.Hashable {}
-extension VungleAdsSDK.Ownership : Swift.RawRepresentable {}
-extension VungleAdsSDK.PropertyType : Swift.Equatable {}
-extension VungleAdsSDK.PropertyType : Swift.Hashable {}
-extension VungleAdsSDK.PropertyType : Swift.RawRepresentable {}
-extension VungleAdsSDK.LocationSource : Swift.Equatable {}
-extension VungleAdsSDK.LocationSource : Swift.Hashable {}
-extension VungleAdsSDK.LocationSource : Swift.RawRepresentable {}

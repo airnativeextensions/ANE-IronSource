@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/VungleAdsSDK-Swift.h</key>
 		<data>
-		q7SMfW+4Yketne4z2eMTT9dCD+0=
+		3jFJdBoZ27pHoGdgaxfFjF5gGEw=
 		</data>
 		<key>Headers/VungleAdsSDK.h</key>
 		<data>
@@ -22,43 +22,43 @@
 		</data>
 		<key>Modules/VungleAdsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		t0zIkQBrM9QJCdlrSfQKVTRo32s=
+		obOplWVUii1kFysmJ9RcZaQWAqs=
 		</data>
 		<key>Modules/VungleAdsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UhwEHdT8uhMrR+H5b2f2gTcxbTc=
+		lqABv866xzccV3Y7mFaLl7zQFBc=
 		</data>
 		<key>Modules/VungleAdsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		uHODT9/G6J2vvI9kNrODxrwQloE=
+		g/ybNmD4Kvp5aOk8gNGivEOQf+s=
 		</data>
 		<key>Modules/VungleAdsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UhwEHdT8uhMrR+H5b2f2gTcxbTc=
+		lqABv866xzccV3Y7mFaLl7zQFBc=
 		</data>
 		<key>Modules/VungleAdsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iHFLYoS5OCndva/6fH328upQsao=
+		g8M/M4pmy0c5pVfM2/zmqbw1+9E=
 		</data>
 		<key>Modules/VungleAdsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		t0zIkQBrM9QJCdlrSfQKVTRo32s=
+		obOplWVUii1kFysmJ9RcZaQWAqs=
 		</data>
 		<key>Modules/VungleAdsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OILvySacN1EILIXBPlbOy3p18XU=
+		gLK6fIiXRAnWdVvFByWeNUUZSKU=
 		</data>
 		<key>Modules/VungleAdsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		1aLpianeXqQPa507QZpvNfx5BmM=
+		mHvChHUsjdCHNBD58dAQjyTblhE=
 		</data>
 		<key>Modules/VungleAdsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OILvySacN1EILIXBPlbOy3p18XU=
+		gLK6fIiXRAnWdVvFByWeNUUZSKU=
 		</data>
 		<key>Modules/VungleAdsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CXPJ/DMuTjjTHgtfjLsqsrTwkTU=
+		U6Q+jgRyrRDetGhnhxQyqzSHSR0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			opOSmgIpIxsb/i7vJPDJ1VHbGWDdLeI1xivQU/rB2/A=
+			2DZSlwtrzX4zPa8sugppdDUQqRnAk0Fbgw6g6fyb/MM=
 			</data>
 		</dict>
 		<key>Headers/VungleAdsSDK.h</key>
@@ -96,70 +96,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0MJdb9q7ZlJ9POlFvNhYnDSkw5YoQoRIw1ai9ErUDGU=
+			/K9MKvNBthrcSsZI3EsJjw1VCcCK1YVRc1o0F2/K1W4=
 			</data>
 		</dict>
 		<key>Modules/VungleAdsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vn4Fcpff1d0qpXgnjSVTBg47c7UESHDP/7EgzyRaiH0=
+			ZsSrRd+LydbOX9MnwuFjs89FYa6rTQjdbP/fCIPnCHE=
 			</data>
 		</dict>
 		<key>Modules/VungleAdsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Z2b2kzKFnD1r5nvWS8bseZ5MVK5GYTCd5d74uiR8sw=
+			Lk7dn8lURkcAM4WTVuCD+zDBdE85uMWg0O9VEO62vi4=
 			</data>
 		</dict>
 		<key>Modules/VungleAdsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vn4Fcpff1d0qpXgnjSVTBg47c7UESHDP/7EgzyRaiH0=
+			ZsSrRd+LydbOX9MnwuFjs89FYa6rTQjdbP/fCIPnCHE=
 			</data>
 		</dict>
 		<key>Modules/VungleAdsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ivqrTnP/DLExQIiTY7AYjD2WtNXHEc6QrnO4lvg9xHs=
+			EjPxzhsizC/ftdE63iKF/TE8Ss/54d0dsE6pSE7DX4Y=
 			</data>
 		</dict>
 		<key>Modules/VungleAdsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0MJdb9q7ZlJ9POlFvNhYnDSkw5YoQoRIw1ai9ErUDGU=
+			/K9MKvNBthrcSsZI3EsJjw1VCcCK1YVRc1o0F2/K1W4=
 			</data>
 		</dict>
 		<key>Modules/VungleAdsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GTVTShsXXCD6O4ANun8PH2JzpE7D63TqdyvrUNMiESY=
+			5rnh2QOweXes7sjrrmqDyvDnlKXqez6SknQ9d3a9HT4=
 			</data>
 		</dict>
 		<key>Modules/VungleAdsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FN9tWTso7jksfAKzgAYyWsv+QUuq5JYsCpsLhWxPGQg=
+			t+1eADBtMuPHltPn5CKc3a46py+EoqNQI5PMzFKYfxw=
 			</data>
 		</dict>
 		<key>Modules/VungleAdsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GTVTShsXXCD6O4ANun8PH2JzpE7D63TqdyvrUNMiESY=
+			5rnh2QOweXes7sjrrmqDyvDnlKXqez6SknQ9d3a9HT4=
 			</data>
 		</dict>
 		<key>Modules/VungleAdsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dc5TQo/C0LEwf+TKyFRnehQcwcWFxxM6d39CsdrTUWs=
+			oPdVPYxcry8ZYXcjRK+lmxs+YK9qNIOHPv+ZkVL5Y/4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

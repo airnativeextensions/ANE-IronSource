@@ -342,37 +342,6 @@ typedef SWIFT_ENUM(NSInteger, ConsentStatus, open) {
   ConsentStatusDenied = 1,
 };
 
-typedef SWIFT_ENUM(NSInteger, EducationLevel, open) {
-  EducationLevelOther = 0,
-  EducationLevelNoSchooling = 1,
-  EducationLevelSomeHighSchool = 2,
-  EducationLevelHighSchoolGraduate = 3,
-  EducationLevelSomeCollege = 4,
-  EducationLevelBachelors = 5,
-  EducationLevelMasters = 6,
-  EducationLevelProfessional = 7,
-  EducationLevelDoctorate = 8,
-};
-
-typedef SWIFT_ENUM(NSInteger, EmploymentStatus, open) {
-  EmploymentStatusOther = 0,
-  EmploymentStatusEmployed = 1,
-  EmploymentStatusUnemployed = 2,
-  EmploymentStatusSelfEmployed = 3,
-  EmploymentStatusRetired = 4,
-  EmploymentStatusStudent = 5,
-  EmploymentStatusIntern = 6,
-  EmploymentStatusTemporary = 7,
-  EmploymentStatusFreelancer = 8,
-  EmploymentStatusCasual = 9,
-};
-
-enum Gender : NSInteger;
-enum LocaleClassification : NSInteger;
-enum MaritalStatus : NSInteger;
-enum Ownership : NSInteger;
-enum PropertyType : NSInteger;
-enum LocationSource : NSInteger;
 @class NSDate;
 
 SWIFT_CLASS("_TtC12VungleAdsSDK14FirstPartyData")
@@ -380,32 +349,10 @@ SWIFT_CLASS("_TtC12VungleAdsSDK14FirstPartyData")
 /// Age categories for demographic splits.  0=Others, 1=18-20, 2=21-30, 3=31-40, 4=41-50,
 /// 5=51-60, 6=61-70, 7=71-75
 - (void)setAge:(NSInteger)age;
-/// Education stages or highest level achieved.  0=Other, 1=No Schooling, 2=Some High School,
-/// 3=High School Graduate, 4=Some College, 5=Bachelor’s Degree, 6=Master’s Degree,
-/// 7=Professional Degree, 8=Doctorate
-- (void)setEducationLevel:(enum EducationLevel)educationLevel;
-/// User’s valid email address.  jane@gmail.com
-- (void)setEmail:(NSString * _Nonnull)email;
-/// Current employment status indicating economic activity.  0=Other, 1=Employed,
-/// 2=Unemployed, 3=Self-Employed, 4=Retired, 5=Student, 6=Intern, 7=Temporary, 8=Freelancer,
-/// 9=Casual
-- (void)setEmploymentStatus:(enum EmploymentStatus)employmentStatus;
-/// Gender identification of audience.  0=Other, 1=Male, 2=Female
-- (void)setGender:(enum Gender)gender;
-/// Income brackets indicating economic capacity.  0=<$10k, 1=$10k-$30k, 2=$30k-$50k,
-/// 3=$50k-$70k, 4=$70k-$100k, 5=$100k-$200k, 6=$200k-$300k, 7=$300k-$500k, 8=$500k-$700k,
-/// 9=>$700k
-- (void)setIncomeUsd:(NSInteger)incomeUsd;
 /// Duration of residence at the current location.  0=<1 year, 1=1-5 years, 2=6-10 years,
 /// 3=11-20 years, 4=21-30 years, 5=31-40 years, 6=41-50 years, 7=51-60 years, 8=61-70 years,
 /// 9=71-75+ years
 - (void)setLengthOfResidenceYears:(NSDecimal)lengthOfResidenceYears;
-/// General geographic area of residence.  0=Other, 1=Urban, 2=Suburban, 3=Rural, 4=Town,
-/// 5=City Center, 6=Residential Area, 7=Outskirts, 8=Industrial Area, 9=Village
-- (void)setLocaleClassification:(enum LocaleClassification)localeClassification;
-/// Marital or relationship status.  0=Single, 1=Married, 2=Divorced, 3=Widowed, 4=Separated,
-/// 5=Partnered, 6=Engaged, 7=Co-habiting, 8=Annulled, 9=Common Law
-- (void)setMaritalStatus:(enum MaritalStatus)maritalStatus;
 /// Home values reflecting economic status and housing market.  0=<$100k, 1=$100k-$300k,
 /// 2=$300k-$500k, 3=$500k-$700k, 4=$700k-$900k, 5=$900k-$1.1M, 6=$1.1M-$1.3M, 7=$1.3M-$1.5M,
 /// 8=$1.5M-$1.7M, 9=>$1.7M
@@ -414,34 +361,12 @@ SWIFT_CLASS("_TtC12VungleAdsSDK14FirstPartyData")
 /// 2=$1000-$1500, 3=$1500-$2000, 4=$2000-$2500, 5=$2500-$3000, 6=$3000-$3500, 7=$3500-$4000,
 /// 8=$4000-$4500, 9=>$4500
 - (void)setMonthlyHousingPaymentUsd:(NSInteger)monthlyHousingPaymentUsd;
-/// Ownership status of the residence.  0=Other, 1=Owner Occupied, 2=Renter Occupied,
-/// 3=Leased, 4=Shared, 5=Freehold, 6=Co-op, 7=State Owned, 8=Managed, 9=Vacation Home
-- (void)setOwnership:(enum Ownership)ownership;
-/// User’s valid phone number in international format e.g. US+15108888888, UK +442079460958, China +861088880000, Singpore +6561234567
-- (void)setPhoneNumber:(NSString * _Nonnull)phoneNumber;
-/// Type of dwelling unit or property.  0=Other, 1=Single Family Home, 2=Multi-Family Unit,
-/// 3=Condo, 4=Townhouse, 5=Mobile Home, 6=Apartment, 7=Studio, 8=Farmhouse, 9=Ranch
-- (void)setPropertyType:(enum PropertyType)propertyType;
-/// The year the individual was born
-- (void)setYob:(NSInteger)yob;
 /// Country of the individual’s location or nationality
 - (void)setCountry:(NSString * _Nullable)country;
 /// Designated Market Areas in the United States for media planning.  e.g. 803 (Los Angeles),
 /// 501 (New York), 602 (Chicago), 504 (Philadelphia), 807 (San Francisco), 511 (Boston), 623
 /// (Washington, DC), 618 (Atlanta), 670 (Houston), 506 (Miami)
 - (void)setDma:(NSInteger)dma;
-/// Indicates whether the individual is currently traveling
-- (void)setIsTraveling:(BOOL)isTraveling;
-/// The method through which the location data was acquired.  0=Other, 1=GPS, 2=IP address,
-/// 3=User input, 4=Mobile network, 5=Wi-Fi, 6=Beacon, 7=RFID, 8=Geofencing, 9=Sensor
-- (void)setLocationSource:(enum LocationSource)locationSource;
-/// Precise geographic latitude for major global cities. e.g. 340.522
-- (void)setLatitude:(double)latitude;
-/// Precise geographic longitude for major global cities. e.g. -118.2437
-- (void)setLongitude:(double)longitude;
-/// Specific postal codes from various global locations.  e.g. 90210, 10001, SW1A 1AA, 2000,
-/// 1010, 1000, 400001, 75000, 999077, 71000
-- (void)setPostalCode:(NSString * _Nullable)postalCode;
 /// State or regional area of the individual.  e.g. California, New York, Texas, Bavaria,
 /// Ontario, Queensland, São Paulo, Tokyo Prefecture, Moscow, Gauteng
 - (void)setRegionState:(NSString * _Nullable)regionState;
@@ -516,51 +441,6 @@ SWIFT_CLASS("_TtC12VungleAdsSDK14FirstPartyData")
 - (void)clearAll;
 @end
 
-typedef SWIFT_ENUM(NSInteger, Gender, open) {
-  GenderOther = 0,
-  GenderMale = 1,
-  GenderFemale = 2,
-};
-
-typedef SWIFT_ENUM(NSInteger, LocaleClassification, open) {
-  LocaleClassificationOther = 0,
-  LocaleClassificationUrban = 1,
-  LocaleClassificationSuburban = 2,
-  LocaleClassificationRural = 3,
-  LocaleClassificationTown = 4,
-  LocaleClassificationCityCenter = 5,
-  LocaleClassificationResidentialArea = 6,
-  LocaleClassificationOutskirts = 7,
-  LocaleClassificationIndustrialArea = 8,
-  LocaleClassificationVillage = 9,
-};
-
-typedef SWIFT_ENUM(NSInteger, LocationSource, open) {
-  LocationSourceOther = 0,
-  LocationSourceGps = 1,
-  LocationSourceIpAddress = 2,
-  LocationSourceUserInput = 3,
-  LocationSourceMobileNetwork = 4,
-  LocationSourceWifi = 5,
-  LocationSourceBeacon = 6,
-  LocationSourceRfid = 7,
-  LocationSourceGeofencing = 8,
-  LocationSourceSensor = 9,
-};
-
-typedef SWIFT_ENUM(NSInteger, MaritalStatus, open) {
-  MaritalStatusSingle = 0,
-  MaritalStatusMarried = 1,
-  MaritalStatusDivorced = 2,
-  MaritalStatusWidowed = 3,
-  MaritalStatusSeparated = 4,
-  MaritalStatusPartnered = 5,
-  MaritalStatusEngaged = 6,
-  MaritalStatusCohabiting = 7,
-  MaritalStatusAnnulled = 8,
-  MaritalStatusCommonLaw = 9,
-};
-
 @class NSCoder;
 
 /// A MediaView to display the ad’s image or video
@@ -576,33 +456,6 @@ typedef SWIFT_ENUM(NSInteger, NativeAdOptionsPosition, open) {
   NativeAdOptionsPositionBottomLeft = 3,
   NativeAdOptionsPositionBottomRight = 4,
 };
-
-typedef SWIFT_ENUM(NSInteger, Ownership, open) {
-  OwnershipOther = 0,
-  OwnershipOwnerOccupied = 1,
-  OwnershipRenterOccupied = 2,
-  OwnershipLeased = 3,
-  OwnershipShared = 4,
-  OwnershipFreehold = 5,
-  OwnershipCoop = 6,
-  OwnershipStateOwned = 7,
-  OwnershipManaged = 8,
-  OwnershipVacationHome = 9,
-};
-
-typedef SWIFT_ENUM(NSInteger, PropertyType, open) {
-  PropertyTypeOther = 0,
-  PropertyTypeSingleFamilyHome = 1,
-  PropertyTypeMultiFamilyUnit = 2,
-  PropertyTypeCondo = 3,
-  PropertyTypeTownhouse = 4,
-  PropertyTypeMobileHome = 5,
-  PropertyTypeApartment = 6,
-  PropertyTypeStudio = 7,
-  PropertyTypeFarmhouse = 8,
-  PropertyTypeRanch = 9,
-};
-
 
 
 
@@ -717,7 +570,7 @@ SWIFT_CLASS("_TtC12VungleAdsSDK15VungleAdsExtras")
 
 @protocol VungleBannerDelegate;
 
-SWIFT_CLASS("_TtC12VungleAdsSDK12VungleBanner") SWIFT_DEPRECATED_MSG("VungleBanner class will be depricated and Replaced by VungleBannerView class.")
+SWIFT_CLASS("_TtC12VungleAdsSDK12VungleBanner") SWIFT_DEPRECATED_MSG("VungleBanner class will be deprecated and replaced by VungleBannerView class.")
 @interface VungleBanner : BasePublicAd
 /// The delegate to receive banner ad lifecycle callbacks
 @property (nonatomic, weak) id <VungleBannerDelegate> _Nullable delegate;
@@ -749,7 +602,7 @@ SWIFT_CLASS("_TtC12VungleAdsSDK12VungleBanner") SWIFT_DEPRECATED_MSG("VungleBann
 
 
 
-SWIFT_PROTOCOL("_TtP12VungleAdsSDK20VungleBannerDelegate_") SWIFT_DEPRECATED_MSG("VungleBannerDelegate will be depricated and Replaced by VungleBannerViewDelegate class.")
+SWIFT_PROTOCOL("_TtP12VungleAdsSDK20VungleBannerDelegate_") SWIFT_DEPRECATED_MSG("VungleBannerDelegate will be deprecated and replaced by VungleBannerViewDelegate protocol.")
 @protocol VungleBannerDelegate <NSObject>
 @optional
 - (void)bannerAdDidLoad:(VungleBanner * _Nonnull)banner;
@@ -801,9 +654,6 @@ SWIFT_CLASS("_TtC12VungleAdsSDK16VungleBannerView")
 
 
 
-
-
-
 SWIFT_PROTOCOL("_TtP12VungleAdsSDK24VungleBannerViewDelegate_")
 @protocol VungleBannerViewDelegate <NSObject>
 @optional
@@ -822,188 +672,192 @@ typedef SWIFT_ENUM(NSInteger, VungleError, open) {
 /// This shouldn’t be used. If an error is being logged, the context is already known.
   VungleErrorUnknownError = 0,
 /// The app id fails SDK validation, like empty string
-  VungleErrorInvalidAppID = 1,
+  VungleErrorInvalidAppID = 2,
 /// The SDK is already initializing when another call is made
-  VungleErrorCurrentlyInitializing = 2,
+  VungleErrorCurrentlyInitializing = 3,
 /// The SDK is already successfully initialized when another call is made
-  VungleErrorAlreadyInitialized = 3,
+  VungleErrorAlreadyInitialized = 4,
 /// Returned if any public API is called before initialization, if it requires initialization
-  VungleErrorSdkNotInitialized = 4,
+  VungleErrorSdkNotInitialized = 6,
 /// The error in retrieving webView user agent
-  VungleErrorUserAgentError = 5,
+  VungleErrorUserAgentError = 7,
 /// Server error getting a response from an api call. Message contains the URL
-  VungleErrorApiRequestError = 6,
+  VungleErrorApiRequestError = 101,
 /// Server didn’t send any data in the api call. Message contains the URL
-  VungleErrorApiResponseDataError = 7,
+  VungleErrorApiResponseDataError = 102,
 /// SDK failed to decode the response into the expected object. Message contains the URL
-  VungleErrorApiResponseDecodeError = 8,
+  VungleErrorApiResponseDecodeError = 103,
 /// The status code from an API call (like config, ads, etc) returned something not 2xx. Message contains the URL
-  VungleErrorApiFailedStatusCode = 9,
+  VungleErrorApiFailedStatusCode = 104,
 /// The template url is nil, empty or invalid url. Message contains the URL
-  VungleErrorInvalidTemplateURL = 10,
+  VungleErrorInvalidTemplateURL = 105,
 /// Failed to create a URL object to the targeted endpoint. Message contains the URL
-  VungleErrorInvalidRequestBuilderError = 11,
+  VungleErrorInvalidRequestBuilderError = 106,
 /// Failed to unarchive the template file
-  VungleErrorTemplateUnzipError = 12,
+  VungleErrorTemplateUnzipError = 109,
 /// The CTA URL is an invalid url or it failed to open. Message contains the URL
-  VungleErrorInvalidCtaURL = 13,
+  VungleErrorInvalidCtaURL = 110,
 /// The URL from the cacheable replacements is invalid. Message contains the URL
-  VungleErrorInvalidAssetURL = 14,
+  VungleErrorInvalidAssetURL = 111,
 /// The asset failed to download or Apple didn’t return to us the temporary location. Message contains the URL
-  VungleErrorAssetRequestError = 15,
+  VungleErrorAssetRequestError = 112,
 /// Apple returned an unexpected response object or failed to load the downloaded data.
-  VungleErrorAssetResponseDataError = 16,
+  VungleErrorAssetResponseDataError = 113,
 /// Failed to save the downloaded asset to disk.
-  VungleErrorAssetWriteError = 17,
+  VungleErrorAssetWriteError = 114,
 /// The index.html doesn’t exist or there’s an issue with the event id to lookup the html file
-  VungleErrorInvalidIndexURL = 18,
+  VungleErrorInvalidIndexURL = 115,
 /// Failed to gzip the token data for the bidding token
-  VungleErrorGzipEncodeError = 19,
+  VungleErrorGzipEncodeError = 116,
 /// The status code from the asset download didn’t return 200. Message contains the URL
-  VungleErrorAssetFailedStatusCode = 20,
+  VungleErrorAssetFailedStatusCode = 117,
 /// Failed to serialize the protobuf object for the request body
-  VungleErrorProtobufSerializationError = 21,
+  VungleErrorProtobufSerializationError = 118,
 /// Failed to encode the json object for the bidding token or into the request body.
-  VungleErrorJsonEncodeError = 22,
+  VungleErrorJsonEncodeError = 119,
 /// Failed to create the TPAT URL object or send it. Message contains the URL
-  VungleErrorTpatError = 23,
+  VungleErrorTpatError = 121,
 /// The ads endpoint doesn’t exist in the config response body
-  VungleErrorInvalidAdsEndpoint = 24,
+  VungleErrorInvalidAdsEndpoint = 122,
 /// The ri endpoint doesn’t exist in the config response body
-  VungleErrorInvalidRiEndpoint = 25,
+  VungleErrorInvalidRiEndpoint = 123,
 /// The error_logs endpoint doesn’t exist in the config response body
-  VungleErrorInvalidLogErrorEndpoint = 26,
+  VungleErrorInvalidLogErrorEndpoint = 124,
 /// The metrics endpoint doesn’t exist in the config response body
-  VungleErrorInvalidMetricsEndpoint = 27,
-  VungleErrorAssetFailedInsufficientSpace = 28,
-  VungleErrorAssetFailedMaxSpaceExceeded = 29,
-  VungleErrorInvalidTpatKey = 30,
-  VungleErrorEmptyTpatError = 31,
+  VungleErrorInvalidMetricsEndpoint = 125,
+  VungleErrorAssetFailedInsufficientSpace = 126,
+  VungleErrorAssetFailedMaxSpaceExceeded = 127,
+  VungleErrorInvalidTpatKey = 128,
+  VungleErrorEmptyTpatError = 129,
 /// MRAID JS file download failed
-  VungleErrorMraidDownloadJsError = 32,
+  VungleErrorMraidDownloadJsError = 130,
 /// Failed to save MRAID JS files to disk
-  VungleErrorMraidJsWriteFailed = 33,
+  VungleErrorMraidJsWriteFailed = 131,
 /// OMSDK JS file download failed
-  VungleErrorOmsdkDownloadJsError = 34,
+  VungleErrorOmsdkDownloadJsError = 132,
 /// Failed to save OMSDK JS files to disk
-  VungleErrorOmsdkJsWriteFailed = 35,
+  VungleErrorOmsdkJsWriteFailed = 133,
 /// Failed to get the App/play store region
-  VungleErrorStoreRegionCodeError = 36,
+  VungleErrorStoreRegionCodeError = 134,
 /// Empty config response body
-  VungleErrorInvalidConfigResponse = 37,
+  VungleErrorInvalidConfigResponse = 135,
 /// Failed to open privacy url
-  VungleErrorPrivacyURLError = 38,
+  VungleErrorPrivacyURLError = 136,
 /// Failed to send tpat on a tpat retry
-  VungleErrorTpatRetryFailed = 39,
+  VungleErrorTpatRetryFailed = 137,
 /// Failed to refresh config
-  VungleErrorConfigRefreshFailed = 40,
+  VungleErrorConfigRefreshFailed = 138,
 /// The event id in the ads response is invalid or the local URL can’t be created from it
-  VungleErrorInvalidEventIDError = 41,
+  VungleErrorInvalidEventIDError = 200,
 /// The placement id in the ad object is empty or not part of the config response
-  VungleErrorInvalidPlacementID = 42,
+  VungleErrorInvalidPlacementID = 201,
 /// Pub attempted to load when the ad is already marked as completed
-  VungleErrorAdConsumed = 43,
+  VungleErrorAdConsumed = 202,
 /// Pub called load to a currently loading ad object
-  VungleErrorAdIsLoading = 44,
+  VungleErrorAdIsLoading = 203,
 /// Pub called load when the ad object already loaded successfully
-  VungleErrorAdAlreadyLoaded = 45,
+  VungleErrorAdAlreadyLoaded = 204,
 /// Pub called load, play or canPlay to an already playing ad object
-  VungleErrorAdIsPlaying = 46,
+  VungleErrorAdIsPlaying = 205,
 /// Pub called load on a failed ad object
-  VungleErrorAdAlreadyFailed = 47,
+  VungleErrorAdAlreadyFailed = 206,
 /// The template type in the ad object mismatch
-  VungleErrorPlacementAdTypeMismatch = 48,
+  VungleErrorPlacementAdTypeMismatch = 207,
 /// The bid payload doesn’t contain a valid ads response
-  VungleErrorInvalidBidPayload = 49,
+  VungleErrorInvalidBidPayload = 208,
 /// The bid payload was unable decode the payload into the json objects
-  VungleErrorInvalidJsonBidPayload = 50,
+  VungleErrorInvalidJsonBidPayload = 209,
 /// The pub didnt’ call the load API before the play or it didn’t finish loading.
-  VungleErrorAdNotLoaded = 51,
+  VungleErrorAdNotLoaded = 210,
 /// The platform returned a sleeping response
-  VungleErrorPlacementSleep = 52,
+  VungleErrorPlacementSleep = 212,
 /// Failed to decode the ad unit from the bid payload
-  VungleErrorInvalidAdunitBidPayload = 53,
+  VungleErrorInvalidAdunitBidPayload = 213,
 /// Failed to ungzip the ad from the bid payload
-  VungleErrorInvalidGzipBidPayload = 54,
+  VungleErrorInvalidGzipBidPayload = 214,
 /// Ad metadata not found in response
-  VungleErrorAdResponseEmpty = 55,
-  VungleErrorAdResponseInvalidTemplateType = 56,
+  VungleErrorAdResponseEmpty = 215,
+  VungleErrorAdResponseInvalidTemplateType = 216,
 /// Time out error for /ads request
-  VungleErrorAdResponseTimedOut = 57,
+  VungleErrorAdResponseTimedOut = 217,
 /// MRAID JS file not available
-  VungleErrorMraidJsDoesNotExist = 58,
+  VungleErrorMraidJsDoesNotExist = 218,
 /// MRAID JS copy to ad directory failed
-  VungleErrorMraidJsCopyFailed = 59,
+  VungleErrorMraidJsCopyFailed = 219,
 /// Failed to load ad due to server busy with retry after timer.
-  VungleErrorAdResponseRetryAfter = 60,
+  VungleErrorAdResponseRetryAfter = 220,
 /// Failed to load ad due to server busy while retry after duration is active.
-  VungleErrorAdLoadFailRetryAfter = 61,
+  VungleErrorAdLoadFailRetryAfter = 221,
 /// Failed to load ad due to invalid Waterfall placement id.
-  VungleErrorInvalidWaterfallPlacementID = 62,
+  VungleErrorInvalidWaterfallPlacementID = 222,
 /// Cached data is stale, i.e. content-length of cached response is not the same as remote
-  VungleErrorStaleCachedResponse = 63,
+  VungleErrorStaleCachedResponse = 223,
 /// Server returned “No fill”.
-  VungleErrorAdNoFill = 64,
+  VungleErrorAdNoFill = 10001,
 /// Server returned “Ad load is too frequently”.
-  VungleErrorAdLoadTooFrequently = 65,
+  VungleErrorAdLoadTooFrequently = 10002,
 /// Load shedding error is occurring on the server side.
-  VungleErrorAdServerError = 66,
+  VungleErrorAdServerError = 20001,
 /// App or placement is not correct.
-  VungleErrorAdPublisherMismatch = 67,
+  VungleErrorAdPublisherMismatch = 30001,
 /// Integration error occurring on the server side.
-  VungleErrorAdInternalIntegrationError = 68,
+  VungleErrorAdInternalIntegrationError = 30002,
+/// SDK failed to load ad due to available config not found.
+  VungleErrorConfigNotFoundError = 30003,
 /// For logging errors provided from the template
-  VungleErrorMraidError = 69,
+  VungleErrorMraidError = 301,
 /// The IFA changed values between loading and playing the ad object.
-  VungleErrorInvalidIfaStatus = 70,
+  VungleErrorInvalidIfaStatus = 302,
 /// The ad response expired. This is fired immediately when the timer detects that it has expired.
-  VungleErrorAdExpired = 71,
+  VungleErrorAdExpired = 304,
 /// Failed to load the index html
-  VungleErrorMraidBridgeError = 72,
+  VungleErrorMraidBridgeError = 305,
 /// The ad response expired. This is fired when the pub calls play on an expired ad object.
-  VungleErrorAdExpiredOnPlay = 73,
+  VungleErrorAdExpiredOnPlay = 307,
 /// Failed to send the win notification url. Message contains the URL
-  VungleErrorAdWinNotificationError = 74,
+  VungleErrorAdWinNotificationError = 308,
 /// Logged if asset fails to be removed on cleanup
-  VungleErrorAssetFailedToDelete = 75,
+  VungleErrorAssetFailedToDelete = 309,
 /// Logged if load fails just before ad play
-  VungleErrorAdHtmlFailedToLoad = 76,
+  VungleErrorAdHtmlFailedToLoad = 310,
 /// MRAID JS event does not include expected value
-  VungleErrorMraidJsCallEmpty = 77,
+  VungleErrorMraidJsCallEmpty = 311,
 /// Unable to open deep link URL
-  VungleErrorDeeplinkOpenFailed = 78,
+  VungleErrorDeeplinkOpenFailed = 312,
 /// Failed to evaluate javascript
-  VungleErrorEvaluateJavascriptFailed = 79,
+  VungleErrorEvaluateJavascriptFailed = 313,
 /// Failed to open the mraid link command
-  VungleErrorLinkCommandOpenFailed = 80,
+  VungleErrorLinkCommandOpenFailed = 314,
 /// Failed to get the json string from json data
-  VungleErrorJsonParamsEncodeError = 81,
+  VungleErrorJsonParamsEncodeError = 315,
 /// Failed to generate json data from params dictionary
-  VungleErrorGenerateJsonDataError = 82,
+  VungleErrorGenerateJsonDataError = 316,
 /// Template close due to Fatal error reported by template
-  VungleErrorAdClosedTemplateError = 83,
+  VungleErrorAdClosedTemplateError = 317,
 /// Missing HeartBeat error
-  VungleErrorAdClosedMissingHeartbeat = 84,
+  VungleErrorAdClosedMissingHeartbeat = 318,
 /// The errors when observing the silent/ring mode change
-  VungleErrorSilentModeMonitorError = 85,
+  VungleErrorSilentModeMonitorError = 319,
+/// The errors when getting the created webview
+  VungleErrorWebviewError = 320,
 /// Pub attempted to call play on a fullscreen ad object with another already playing
-  VungleErrorConcurrentPlaybackUnsupported = 86,
+  VungleErrorConcurrentPlaybackUnsupported = 400,
 /// Pub provided a different size mount for the banner
-  VungleErrorBannerViewInvalidSize = 87,
+  VungleErrorBannerViewInvalidSize = 500,
 /// missing critical native ad assets
-  VungleErrorNativeAssetError = 88,
-  VungleErrorWebViewWebContentProcessDidTerminate = 89,
-  VungleErrorWebViewFailedNavigation = 90,
-  VungleErrorStoreKitLoadError = 91,
-  VungleErrorOmsdkCopyError = 92,
-  VungleErrorStoreOverlayLoadError = 93,
-  VungleErrorReachabilityInitializationFailed = 94,
-  VungleErrorUnknownRadioAccessTechnology = 95,
-  VungleErrorStoreKitPresentationError = 96,
-  VungleErrorStoreOverlayPresentationError = 97,
-  VungleErrorInvalidPlayParameter = 98,
+  VungleErrorNativeAssetError = 600,
+  VungleErrorWebViewWebContentProcessDidTerminate = 2000,
+  VungleErrorWebViewFailedNavigation = 2001,
+  VungleErrorStoreKitLoadError = 2002,
+  VungleErrorOmsdkCopyError = 2003,
+  VungleErrorStoreOverlayLoadError = 2004,
+  VungleErrorReachabilityInitializationFailed = 2005,
+  VungleErrorUnknownRadioAccessTechnology = 2006,
+  VungleErrorStoreKitPresentationError = 2007,
+  VungleErrorStoreOverlayPresentationError = 2008,
+  VungleErrorInvalidPlayParameter = 2009,
 /// Memory Checks
-  VungleErrorOutOfMemory = 99,
+  VungleErrorOutOfMemory = 3001,
 };
 
 @protocol VungleInterstitialDelegate;
@@ -1108,13 +962,13 @@ SWIFT_PROTOCOL("_TtP12VungleAdsSDK20VungleNativeDelegate_")
 
 SWIFT_CLASS("_TtC12VungleAdsSDK21VunglePrivacySettings")
 @interface VunglePrivacySettings : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 + (void)setGDPRStatus:(BOOL)optIn;
 + (void)setGDPRMessageVersion:(NSString * _Nonnull)version;
 + (void)setCCPAStatus:(BOOL)optIn;
 + (void)setCOPPAStatus:(BOOL)isUserCoppa;
 + (void)setPublishIdfv:(BOOL)publish;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 @protocol VungleRewardedDelegate;

@@ -42,8 +42,6 @@ package com.distriqt.test.ironsource
 			_l = logger;
 			try
 			{
-
-
 				log( "IronSource Supported: " + IronSource.isSupported );
 				if (IronSource.isSupported)
 				{

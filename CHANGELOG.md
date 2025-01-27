@@ -1,3 +1,53 @@
+###### 2025.01.27 [v4.0.0]
+
+```
+## Major update 
+
+In this update we have moved all the extensions to use the newer gradle dependencies process. 
+
+See the migration guide: https://docs.airnativeextensions.com/docs/ironsource/migrating-to-version-5.0
+
+- resolves https://github.com/airnativeextensions/ANE-IronSource/issues/71
+
+### Updates
+
+feat(android,ios): update ironsource sdk: android v8.6.1, iOS v8.6.0
+
+feat(adqualitysdk): update ad quality sdk: android v7.22.4, iOS v7.22.4
+feat(admob): update admob sdk: android v4.3.48 (v23.6.0), ios v4.3.60 (v11.13.0)
+feat(applovin): update applovin sdk: android v4.3.49 (v13.0.1), ios v4.3.51 (v13.0.1)
+feat(chartboost): update chartboost sdk: android v4.3.18 (v9.8.2) ios v4.3.19 (v9.7.0)
+feat(digitalturbine): update digitalturbine sdk: android v4.3.36 (v8.3.5) ios v4.3.40 (v8.3.4)
+feat(facebookaudience): update facebookaudience sdk: android v4.3.48 (v6.18.0) ios v4.3.47 (v6.16.0)
+feat(unityads): update unityads sdk: android v4.3.47 (v4.13.0) ios v4.3.46 (v4.13.0) 
+feat(vungle): update vungle sdk: android v4.3.28 (v7.4.2) ios v4.3.42 (v7.4.4)
+```
+
+###### 2025.01.27 [v4.0.0]
+
+```
+## Major update 
+
+In this update we have moved all the extensions to use the newer gradle dependencies process. 
+
+See the migration guide: https://docs.airnativeextensions.com/docs/ironsource/migrating-to-version-5.0
+
+- resolves https://github.com/airnativeextensions/ANE-IronSource/issues/71
+
+### Updates
+
+feat(android,ios): update ironsource sdk: android v8.6.1, iOS v8.6.0
+
+feat(adqualitysdk): update ad quality sdk: android v7.22.4, iOS v7.22.4
+feat(admob): update admob sdk: android v4.3.48 (v23.6.0), ios v4.3.60 (v11.13.0)
+feat(applovin): update applovin sdk: android v4.3.49 (v13.0.1), ios v4.3.51 (v13.0.1)
+feat(chartboost): update chartboost sdk: android v4.3.18 (v9.8.2) ios v4.3.19 (v9.7.0)
+feat(digitalturbine): update digitalturbine sdk: android v4.3.36 (v8.3.5) ios v4.3.40 (v8.3.4)
+feat(facebookaudience): update facebookaudience sdk: android v4.3.48 (v6.18.0) ios v4.3.47 (v6.16.0)
+feat(unityads): update unityads sdk: android v4.3.47 (v4.13.0) ios v4.3.46 (v4.13.0) 
+feat(vungle): update vungle sdk: android v4.3.28 (v7.4.2) ios v4.3.42 (v7.4.4)
+```
+
 ###### 2024.09.03 [v3.2.0]
 
 ```

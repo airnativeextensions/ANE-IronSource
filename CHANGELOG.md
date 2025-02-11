@@ -1,3 +1,9 @@
+###### 2025.02.11 [v4.0.1]
+
+```
+fix(vungle): update airpackage dependencies
+```
+
 ###### 2025.01.27 [v4.0.0]
 
 ```

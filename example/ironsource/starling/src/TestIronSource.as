@@ -1,13 +1,4 @@
 /**
- *        __       __               __ 
- *   ____/ /_ ____/ /______ _ ___  / /_
- *  / __  / / ___/ __/ ___/ / __ `/ __/
- * / /_/ / (__  ) / / /  / / /_/ / / 
- * \__,_/_/____/_/ /_/  /_/\__, /_/ 
- *                           / / 
- *                           \/ 
- * http://distriqt.com
- *
  * This is a test application for the distriqt extension
  * 
  * @author Michael Archbold & Shane Korin

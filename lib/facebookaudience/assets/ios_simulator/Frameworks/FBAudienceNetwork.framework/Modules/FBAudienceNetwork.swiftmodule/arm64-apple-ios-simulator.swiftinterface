@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Facebook Swift version 6.0.2-dev effective-5.10 (LLVM 1194ac007e37bfd, Swift 2780b2fe9203dd8)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-experimental-feature AccessLevelOnImport -enable-experimental-feature PikaNonResilientImplementationOnlyWarnings -enable-library-evolution -swift-version 5 -Osize -enable-upcoming-feature ImportObjcForwardDeclarations -module-name FBAudienceNetwork
+// swift-compiler-version: Facebook Swift version 6.0.3-dev effective-5.10 (LLVM 6318a54540dbab9, Swift 7343de137adbfc9)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -Osize -enable-upcoming-feature AccessLevelOnImport -enable-upcoming-feature BareSlashRegexLiterals -enable-upcoming-feature DeprecateApplicationMain -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature ForwardTrailingClosures -enable-upcoming-feature ImplicitOpenExistentials -enable-upcoming-feature ImportObjcForwardDeclarations -enable-upcoming-feature IsolatedDefaultValues -enable-upcoming-feature NonfrozenEnumExhaustivity -enable-experimental-feature PikaNonResilientImplementationOnlyWarnings -module-name FBAudienceNetwork
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 @_exported import FBAudienceNetwork
 import Foundation
 import Swift

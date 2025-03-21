@@ -1,3 +1,21 @@
+###### 2025.03.21 [v4.1.0]
+
+```
+feat(android,ios): update ironsource sdk: android v8.7.0, iOS v8.7.0
+
+feat(adqualitysdk): update ad quality sdk: android v7.23.3, iOS v7.23.2
+feat(admob): update admob sdk: android v4.3.49 (v23.6.0), ios v4.3.63 (v12.2.0)
+feat(applovin): update applovin sdk: android v4.3.50 (v13.1.0), ios v4.3.52 (v13.1.0)
+feat(chartboost): update chartboost sdk: android v4.3.19 (v9.8.3) ios v4.3.20 (v9.8.1)
+feat(digitalturbine): update digitalturbine sdk: android v4.3.37 (v8.3.6) ios v4.3.42 (v8.3.6)
+feat(facebookaudience): update facebookaudience sdk: android v4.3.49 (v6.19.0) ios v4.3.49 (v6.17.1)
+feat(facebookaudience,ios): move to the static version of the iOS facebook audience framework
+feat(unityads): update unityads sdk: android v4.3.51 (v4.14.0) ios v4.3.49 (v4.14.0) 
+feat(vungle): update vungle sdk: android v4.3.29 (v7.4.3) ios v4.3.43 (v7.4.5)
+
+fix(ios,mediators): resolve duplicate bundle issue (resolves https://github.com/airnativeextensions/ANE-IronSource/issues/75)
+```
+
 ###### 2025.02.11 [v4.0.1]
 
 ```

@@ -2,4 +2,4 @@
 
 | Extension | Version | Android Lib | iOS Lib |
 | --- | --- | --- | --- |
-| com.distriqt.ironsource.DigitalTurbine | 9.0.0 | 4.3.36 | 4.3.40 |
+| com.distriqt.ironsource.DigitalTurbine | 9.0.1 | 4.3.37 | 4.3.42 |

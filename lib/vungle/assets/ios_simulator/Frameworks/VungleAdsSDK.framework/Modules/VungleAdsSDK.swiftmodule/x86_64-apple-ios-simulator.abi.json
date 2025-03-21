@@ -45316,7 +45316,7 @@
       "kind": "StringLiteral",
       "offset": 79,
       "length": 7,
-      "value": "\"7.4.4\""
+      "value": "\"7.4.5\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Constants.swift",
@@ -48611,371 +48611,371 @@
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2309,
+      "offset": 2307,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 2694,
+      "offset": 2692,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2986,
+      "offset": 2984,
       "length": 22,
       "value": "\"!*'();:@&=+$,\/?%#[] \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3374,
+      "offset": 3372,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3378,
+      "offset": 3376,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3479,
+      "offset": 3477,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3483,
+      "offset": 3481,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4002,
+      "offset": 4000,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 4399,
+      "offset": 4397,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 4502,
+      "offset": 4500,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4641,
+      "offset": 4639,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4645,
+      "offset": 4643,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5387,
+      "offset": 5487,
       "length": 11,
       "value": "\"userAgent\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5770,
+      "offset": 5870,
       "length": 40,
       "value": "\"Failed to retrieve webView user agent.\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6863,
+      "offset": 6963,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 7300,
+      "offset": 7400,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8588,
+      "offset": 8688,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 9013,
+      "offset": 9113,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 9492,
+      "offset": 9592,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 10087,
+      "offset": 10187,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 10183,
+      "offset": 10283,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 10228,
+      "offset": 10328,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 10518,
+      "offset": 10618,
       "length": 58,
       "value": "\"Error retrieving capacity: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 10575,
+      "offset": 10675,
       "length": 21,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 10590,
+      "offset": 10690,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 10789,
+      "offset": 10889,
       "length": 16,
       "value": "\"www.vungle.com\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 10899,
+      "offset": 10999,
       "length": 29,
       "value": "\"Failed to get reachability.\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 10935,
+      "offset": 11035,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 10995,
+      "offset": 11095,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 12924,
+      "offset": 13024,
       "length": 42,
       "value": "\"Unknown connection type detail detected.\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 12973,
+      "offset": 13073,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 13029,
+      "offset": 13129,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 13283,
+      "offset": 13383,
       "length": 29,
       "value": "\"XCTestConfigurationFilePath\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 14002,
+      "offset": 14102,
       "length": 6,
       "value": "\"iPad\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 14030,
+      "offset": 14130,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 15770,
+      "offset": 15870,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 15859,
+      "offset": 15959,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 15950,
+      "offset": 16050,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 15996,
+      "offset": 16096,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 16119,
+      "offset": 16219,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 16381,
+      "offset": 16481,
       "length": 32,
       "value": "\"Failed to get File system size\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 16427,
+      "offset": 16527,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 16457,
+      "offset": 16557,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 16535,
+      "offset": 16635,
       "length": 46,
       "value": "\"Failed to get File system size with \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 16580,
+      "offset": 16680,
       "length": 21,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 16595,
+      "offset": 16695,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 16621,
+      "offset": 16721,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 17005,
+      "offset": 17105,
       "length": 23,
       "value": "\"SKAdNetworkIdentifier\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 17097,
+      "offset": 17197,
       "length": 18,
       "value": "\"SKAdNetworkItems\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 17316,
+      "offset": 17416,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "Array",
-      "offset": 17324,
+      "offset": 17424,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 17671,
+      "offset": 17772,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 17739,
+      "offset": 17840,
       "length": 5,
       "value": "false"
     },
@@ -50928,28 +50928,28 @@
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Public\/Banners\/VungleBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 4643,
+      "offset": 4644,
       "length": 29,
       "value": "\"The SDK banner ad will play\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Public\/Banners\/VungleBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4686,
+      "offset": 4687,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Public\/Banners\/VungleBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 5309,
+      "offset": 5310,
       "length": 26,
       "value": "\"WebView Creation Failed.\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Public\/Banners\/VungleBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5540,
+      "offset": 5541,
       "length": 4,
       "value": "true"
     },
@@ -50963,63 +50963,63 @@
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Public\/Banners\/VungleBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6878,
+      "offset": 6879,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Public\/Banners\/VungleBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6915,
+      "offset": 6916,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Public\/Banners\/VungleBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7086,
+      "offset": 7087,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Public\/Banners\/VungleBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7196,
+      "offset": 7197,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Public\/Banners\/VungleBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 7648,
+      "offset": 7649,
       "length": 14,
       "value": "\"VungleBanner\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Public\/Banners\/VungleBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9187,
+      "offset": 9188,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Public\/Banners\/VungleBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 9391,
+      "offset": 9392,
       "length": 14,
       "value": "\"VungleBanner\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Public\/Banners\/VungleBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 9760,
+      "offset": 9761,
       "length": 30,
       "value": "\"The SDK banner ad has closed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Public\/Banners\/VungleBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9804,
+      "offset": 9805,
       "length": 4,
       "value": "true"
     },
@@ -54274,259 +54274,259 @@
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 3064,
+      "offset": 2981,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3699,
+      "offset": 3616,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 3813,
+      "offset": 3730,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4095,
+      "offset": 4012,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4139,
+      "offset": 4056,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5598,
+      "offset": 5600,
       "length": 16,
       "value": "\"%s Message: %s\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5721,
+      "offset": 5723,
       "length": 7,
       "value": "\"debug\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5925,
+      "offset": 5927,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5975,
+      "offset": 5977,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 6104,
+      "offset": 6106,
       "length": 35,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 6121,
+      "offset": 6123,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 6135,
+      "offset": 6137,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 6138,
+      "offset": 6140,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 6871,
+      "offset": 6958,
       "length": 28,
       "value": "\"%s Reason: %s, Message: %s\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 6996,
+      "offset": 7083,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7022,
+      "offset": 7109,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7041,
+      "offset": 7128,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7060,
+      "offset": 7147,
       "length": 63,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7083,
+      "offset": 7170,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7107,
+      "offset": 7194,
       "length": 14,
       "value": "\"<no message>\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7122,
+      "offset": 7209,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7521,
+      "offset": 7608,
       "length": 10,
       "value": "\"[Vungle]\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7605,
+      "offset": 7692,
       "length": 36,
       "value": "\" PlacementId: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7639,
+      "offset": 7726,
       "length": 1,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7764,
+      "offset": 7851,
       "length": 23,
       "value": "\" EventId: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7785,
+      "offset": 7872,
       "length": 1,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7970,
+      "offset": 8057,
       "length": 7,
       "value": "\"debug\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8010,
+      "offset": 8097,
       "length": 29,
       "value": "\" CreativeId: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8037,
+      "offset": 8124,
       "length": 1,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 8216,
+      "offset": 8303,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 8685,
+      "offset": 8772,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 9432,
+      "offset": 9519,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 9496,
+      "offset": 9583,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 10647,
+      "offset": 10734,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 10958,
+      "offset": 11045,
       "length": 43,
       "value": "\", app state:\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 11000,
+      "offset": 11087,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 11214,
+      "offset": 11301,
       "length": 1,
       "value": "0"
     },
@@ -61449,21 +61449,21 @@
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Presentation\/Presenter\/BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1910,
+      "offset": 1911,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Presentation\/Presenter\/BannerView.swift",
       "kind": "StringLiteral",
-      "offset": 3082,
+      "offset": 3083,
       "length": 26,
       "value": "\"WebView Creation Failed.\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/vng-ios-sdk\/vng-ios-sdk\/Presentation\/Presenter\/BannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3394,
+      "offset": 3395,
       "length": 4,
       "value": "true"
     },

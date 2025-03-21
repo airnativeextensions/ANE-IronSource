@@ -2,4 +2,4 @@
 
 | Extension | Version | Android Lib | iOS Lib |
 | --- | --- | --- | --- |
-| com.distriqt.ironsource.AdQualitySDK | 8.0.0 | 7.22.4 | 7.22.4 |
+| com.distriqt.ironsource.AdQualitySDK | 8.0.3 | 7.23.3 | 7.23.2 |

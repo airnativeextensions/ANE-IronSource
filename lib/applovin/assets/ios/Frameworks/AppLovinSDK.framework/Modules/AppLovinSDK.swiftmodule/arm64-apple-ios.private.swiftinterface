@@ -40,14 +40,6 @@ import _SwiftConcurrencyShims
   public func setGrantedReward()
   @objc deinit
 }
-@_hasMissingDesignatedInitializers open class RewardedInterstitialAdapterDelegate<T> : AppLovinSDK.AdapterDelegate<T, any AppLovinSDK.MARewardedInterstitialAdapterDelegate> where T : AppLovinSDK.ALMediationAdapter {
-  public var hasGrantedReward: Swift.Bool {
-    get
-  }
-  public init(adapter: T, delegate: any AppLovinSDK.MARewardedInterstitialAdapterDelegate, parameters: any AppLovinSDK.MAAdapterResponseParameters)
-  public func setGrantedReward()
-  @objc deinit
-}
 @_inheritsConvenienceInitializers open class AdViewAdapterDelegate<T> : AppLovinSDK.AdapterDelegate<T, any AppLovinSDK.MAAdViewAdapterDelegate> where T : AppLovinSDK.ALMediationAdapter {
   public init(adapter: T, delegate: any AppLovinSDK.MAAdViewAdapterDelegate, adFormat: AppLovinSDK.MAAdFormat, parameters: any AppLovinSDK.MAAdapterResponseParameters)
   @objc deinit

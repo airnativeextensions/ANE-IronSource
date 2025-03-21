@@ -2,4 +2,4 @@
 
 | Extension | Version | Android Lib | iOS Lib |
 | --- | --- | --- | --- |
-| com.distriqt.ironsource.AdMob | 3.0.0 | 4.3.48 | 4.3.60 |
+| com.distriqt.ironsource.AdMob | 3.0.1 | 4.3.49 | 4.3.63 |
